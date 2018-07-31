@@ -2,4 +2,8 @@
     <string name="app_name">Calculadora IMC</string>
     <string name="telaResultado">Resultado</string>
     <string name="telaDescricao">Descrição</string>
+    <string name="textView">Entre com os valores</string>
+    <string name="editPeso">Peso</string>
+    <string name="editAltura">Altura</string>
+    <string name="btnCalcular">Calcular</string>
 </resources>

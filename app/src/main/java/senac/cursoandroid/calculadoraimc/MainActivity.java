@@ -1,5 +1,6 @@
 package senac.cursoandroid.calculadoraimc;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -42,9 +43,12 @@ public class MainActivity extends AppCompatActivity {
                             telaDescricao.setText("Obesidade");
                         }
 
+                    }
                 }
+
+                telaResultado.setVisibility(View.VISIBLE);
+                telaDescricao.setVisibility(View.VISIBLE);
             }
-        }
-    });
-}
+        });
+    }
 }
